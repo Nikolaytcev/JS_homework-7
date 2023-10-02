@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+  }
+  
+  .card {
+    width: 625px;
+  }
+  
+  .poll__title {
+    margin-bottom: 20px;
+  }
+
+  .poll__answers {
+    display: none;
+  }
+
+  .poll__answers.poll__answers_active {
+    display: block;
+  }
+
+  .poll__answer {
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .poll__answer:hover {
+    background-color: blue;
+  }
